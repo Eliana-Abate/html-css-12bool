@@ -3,3 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.pink {
+    background-color: #ffc0cb;
+    border: 1px solid black;
+}
+
+[class*='col'] {
+    min-height: 200px;
+}
