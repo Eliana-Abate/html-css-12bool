@@ -13,6 +13,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 .pink {
@@ -28,4 +29,5 @@
 .p-5px {
     padding: 5px;
 }
+
 
