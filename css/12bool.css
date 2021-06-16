@@ -20,3 +20,10 @@
     flex-direction: row;
     flex-wrap: wrap;
 }
+
+/********** Columns sizing **********/
+
+.col-12 {
+    width: calc((100% / 12) * 12);
+    max-width: calc((100% / 12) * 12);
+}
