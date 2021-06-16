@@ -4,14 +4,21 @@
     box-sizing: border-box;
 }
 
-.pink {
-    background-color: #ffc0cb;
-    border: 1px solid black;
-}
+
 
 [class*='col'] {
     min-height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.pink {
+    background-color: #ffc0cb;
+    border: 1px solid black;
+}
+
+.dark-pink {
+    background-color: #f07f80;
+    border: 1px solid white;
 }
