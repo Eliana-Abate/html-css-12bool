@@ -15,6 +15,11 @@
     max-width: 100%;
 }
 
+[class*='col'] {
+    flex-shrink: 0;
+    flex-grow: 0;
+    flex-basis: auto;
+}
 
 .row {
     display: flex;
